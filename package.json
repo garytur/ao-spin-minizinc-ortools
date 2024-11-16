@@ -1,0 +1,23 @@
+{
+  "name": "ao-mzn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "ts-node src/app.ts",
+    "solve": "ts-node src/minizinc.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "minizinc": "^4.3.5"
+  }
+}
